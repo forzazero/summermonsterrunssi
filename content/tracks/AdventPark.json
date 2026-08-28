@@ -1,0 +1,2489 @@
+{
+  "schemaVersion": 1,
+  "id": "AdventPark",
+  "instanceCount": 239,
+  "bounds": {
+    "minX": -4181,
+    "minY": -5715,
+    "maxX": 5356,
+    "maxY": 11687
+  },
+  "instances": [
+    {
+      "name": "dirt",
+      "x": -35,
+      "y": -39,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 2,
+      "width": 1251,
+      "height": 2919
+    },
+    {
+      "name": "wall",
+      "x": 256,
+      "y": -86,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 44,
+      "width": 640,
+      "height": 54
+    },
+    {
+      "name": "wall",
+      "x": -96,
+      "y": 236,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 3466
+    },
+    {
+      "name": "wall",
+      "x": 1184,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 78,
+      "width": 64,
+      "height": 2272
+    },
+    {
+      "name": "SIGN_START",
+      "x": 135,
+      "y": -498,
+      "angle": 0,
+      "layer": "ui",
+      "zOrder": 13
+    },
+    {
+      "name": "Checker",
+      "x": 896,
+      "y": 384,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 90
+    },
+    {
+      "name": "racerball",
+      "x": 1152,
+      "y": 576,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "water",
+      "x": -4181,
+      "y": -5715,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1,
+      "width": 9537,
+      "height": 17402
+    },
+    {
+      "name": "Note",
+      "x": 711.8076782226562,
+      "y": 432.5378723144531,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1031,
+      "width": 79.61538696289062,
+      "height": 92.04327392578125
+    },
+    {
+      "name": "LaneK1",
+      "x": -32,
+      "y": -32,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1032
+    },
+    {
+      "name": "LaneK2",
+      "x": 916,
+      "y": -64,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1033
+    },
+    {
+      "name": "wall",
+      "x": 973.1370849609375,
+      "y": 33.8629150390625,
+      "angle": 45,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "wall",
+      "x": 864.0715942382812,
+      "y": -31.820241928100586,
+      "angle": 17.806697845458984,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "wall",
+      "x": 1032.953857421875,
+      "y": 158.47531127929688,
+      "angle": 76.25175476074219,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "FastUpSlope",
+      "x": 896,
+      "y": 320,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 64
+    },
+    {
+      "name": "wall",
+      "x": 18.322107315063477,
+      "y": -33.957088470458984,
+      "angle": 340.3049011230469,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "wall",
+      "x": -163.2223663330078,
+      "y": 144.2989501953125,
+      "angle": 289.5433349609375,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "wall",
+      "x": -88.13704681396484,
+      "y": 29.097089767456055,
+      "angle": 317.6071472167969,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 576,
+      "y": 320,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 480,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 288,
+      "y": 320,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 736,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 800,
+      "y": 384,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 384,
+      "y": 352,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "SnowSlide",
+      "x": -32,
+      "y": 256,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 256,
+      "height": 2496
+    },
+    {
+      "name": "SnowSlide",
+      "x": 1504,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 1600
+    },
+    {
+      "name": "UpSlope",
+      "x": 1056,
+      "y": 1056,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1,
+      "width": 128,
+      "height": 1504
+    },
+    {
+      "name": "DCFunnel",
+      "x": 180,
+      "y": 2676,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038
+    },
+    {
+      "name": "DCFunnel",
+      "x": 832,
+      "y": 2676,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038
+    },
+    {
+      "name": "intake",
+      "x": 0,
+      "y": 2752,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 224,
+      "height": 256
+    },
+    {
+      "name": "intake",
+      "x": 576,
+      "y": 2752,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 320,
+      "height": 64,
+      "vars": {
+        "funcID": "1"
+      }
+    },
+    {
+      "name": "line",
+      "x": 256,
+      "y": 2688,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "line",
+      "x": 896,
+      "y": 2560,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 288,
+      "height": 160
+    },
+    {
+      "name": "DCFunnel",
+      "x": 480,
+      "y": 660,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 448,
+      "y": 224,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 640,
+      "y": 224,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "intake",
+      "x": 288,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 256,
+      "height": 448
+    },
+    {
+      "name": "line",
+      "x": 576,
+      "y": 768,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 288,
+      "height": 32
+    },
+    {
+      "name": "DownForceF",
+      "x": 576,
+      "y": 634,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 288,
+      "height": 70
+    },
+    {
+      "name": "FastUpSlope",
+      "x": 256,
+      "y": 2592,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 64
+    },
+    {
+      "name": "FastUpSlope",
+      "x": 896,
+      "y": 2720,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 288,
+      "height": 64
+    },
+    {
+      "name": "wall",
+      "x": 864,
+      "y": 768,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 78,
+      "width": 32,
+      "height": 1920
+    },
+    {
+      "name": "racerball",
+      "x": 1152,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1152,
+      "y": 800,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1152,
+      "y": 928,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1152,
+      "y": 1024,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 960,
+      "y": 1024,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1056,
+      "y": 1024,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1056,
+      "y": 928,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1056,
+      "y": 800,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1056,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 1056,
+      "y": 576,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 960,
+      "y": 576,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 960,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 960,
+      "y": 800,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "racerball",
+      "x": 960,
+      "y": 928,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1007
+    },
+    {
+      "name": "DCFunnel",
+      "x": 448,
+      "y": 3552,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038
+    },
+    {
+      "name": "intake",
+      "x": 544,
+      "y": 3628,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 384,
+      "height": 404
+    },
+    {
+      "name": "line",
+      "x": 482.6772766113281,
+      "y": 3165.32275390625,
+      "angle": 350.4029541015625,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "name": "ExitTunnel",
+      "x": 2338,
+      "y": 3363.5,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1041,
+      "width": 160,
+      "height": 165
+    },
+    {
+      "name": "wall",
+      "x": 544,
+      "y": 736,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 78,
+      "width": 32,
+      "height": 1856
+    },
+    {
+      "name": "DownForceF",
+      "x": -32,
+      "y": 736,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 256,
+      "height": 70
+    },
+    {
+      "name": "LaneK2",
+      "x": 1344,
+      "y": 2560,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1033,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "name": "wall",
+      "x": 1280,
+      "y": 3104,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 928
+    },
+    {
+      "name": "RightSlopF",
+      "x": 1280,
+      "y": 2586,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 518
+    },
+    {
+      "name": "SnowSlide",
+      "x": 1344,
+      "y": 3168,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 768,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 2112,
+      "y": 3168,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 2108.68115234375,
+      "y": 2820.357421875,
+      "angle": 346.589599609375,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 2102.491455078125,
+      "y": 2723.848388671875,
+      "angle": 334.5566711425781,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 1916.3104248046875,
+      "y": 2403.340576171875,
+      "angle": 317.3332824707031,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 1867.5421142578125,
+      "y": 2328.970703125,
+      "angle": 298.29833984375,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 1616.1697998046875,
+      "y": 2156.97119140625,
+      "angle": 278.1570129394531,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 0,
+      "y": 3040,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 64,
+      "y": 3136,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 128,
+      "y": 3104,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": -32,
+      "y": 3168,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 96,
+      "y": 3232,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "FastUpSlope",
+      "x": -32,
+      "y": 5056,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 512,
+      "height": 64
+    },
+    {
+      "name": "DCFunnel",
+      "x": 1216,
+      "y": 5172,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 1312,
+      "y": 5280,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 768,
+      "height": 384
+    },
+    {
+      "name": "line",
+      "x": 1024,
+      "y": 5248,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 160,
+      "height": 672
+    },
+    {
+      "name": "DCFunnel",
+      "x": 576,
+      "y": 5172,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 576,
+      "y": 5248,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 64,
+      "height": 672
+    },
+    {
+      "name": "line",
+      "x": -32,
+      "y": 5120,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 640,
+      "height": 128
+    },
+    {
+      "name": "DownForceF",
+      "x": 1952,
+      "y": 3386,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "DownForceF",
+      "x": 1760,
+      "y": 3546,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "DownForceF",
+      "x": 1600,
+      "y": 3418,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "DownForceF",
+      "x": 1440,
+      "y": 3642,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "FastUpSlope",
+      "x": -32,
+      "y": 3648,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 448,
+      "height": 64
+    },
+    {
+      "name": "wall",
+      "x": 514.4425659179688,
+      "y": 735.7493286132812,
+      "angle": 350,
+      "layer": "Lay",
+      "zOrder": 44,
+      "width": 32,
+      "height": 384.25067138671875
+    },
+    {
+      "name": "wall",
+      "x": 2092.004150390625,
+      "y": 3488.699951171875,
+      "angle": 6.944289207458496,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "LeftSlop",
+      "x": 1184,
+      "y": 5306,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 128,
+      "height": 614
+    },
+    {
+      "name": "LeftSlop",
+      "x": 640,
+      "y": 5312,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 384,
+      "height": 614
+    },
+    {
+      "name": "wall",
+      "x": -22.2230224609375,
+      "y": 4160.41064453125,
+      "angle": 9.203673362731934,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 68.74561309814453,
+      "height": 928.0657348632812
+    },
+    {
+      "name": "UpSlope",
+      "x": -32,
+      "y": 5248,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 608,
+      "height": 384
+    },
+    {
+      "name": "wall",
+      "x": -32.87762451171875,
+      "y": 2771.344482421875,
+      "angle": 343.5605163574219,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 32,
+      "height": 236.97119140625
+    },
+    {
+      "name": "wall",
+      "x": 1668.7301025390625,
+      "y": 2189.704345703125,
+      "angle": 298.29833984375,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 2784,
+      "y": 2959,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 32,
+      "height": 309
+    },
+    {
+      "name": "wall",
+      "x": 2731.638916015625,
+      "y": 2475.245361328125,
+      "angle": 333.7822570800781,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 2779.347412109375,
+      "y": 2722.1796875,
+      "angle": 352.3074035644531,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 2275.689697265625,
+      "y": 2912,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 374
+    },
+    {
+      "name": "wall",
+      "x": 2580.617919921875,
+      "y": 2256.87353515625,
+      "angle": 312.1402587890625,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 2211.425048828125,
+      "y": 2307.41455078125,
+      "angle": 10.512014389038086,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 316.310302734375,
+      "height": 31.9998779296875
+    },
+    {
+      "name": "wall",
+      "x": 1792,
+      "y": 2240,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 1037,
+      "height": 96
+    },
+    {
+      "name": "wall",
+      "x": 1478.0218505859375,
+      "y": 2213.13134765625,
+      "angle": 124.05989074707031,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 1391.059814453125,
+      "y": 2139.129150390625,
+      "angle": 336.730224609375,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 1273.8426513671875,
+      "y": 1761.5533447265625,
+      "angle": 348.1148986816406,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 412.659423828125
+    },
+    {
+      "name": "wall",
+      "x": 2667.80859375,
+      "y": 3223.07373046875,
+      "angle": 36.71710205078125,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 60.310302734375,
+      "height": 380.659423828125
+    },
+    {
+      "name": "RightSlop",
+      "x": 1248,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 128,
+      "height": 1312
+    },
+    {
+      "name": "RightSlop",
+      "x": 2336,
+      "y": 2912,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 366
+    },
+    {
+      "name": "RightSlop",
+      "x": 2112,
+      "y": 2560,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 256,
+      "height": 352
+    },
+    {
+      "name": "UpSlope",
+      "x": 2400,
+      "y": 2336,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 416,
+      "height": 1216
+    },
+    {
+      "name": "LeftSlop",
+      "x": 1440,
+      "y": 2272,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 960,
+      "height": 288
+    },
+    {
+      "name": "UpSlope",
+      "x": 1376,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 1600
+    },
+    {
+      "name": "LeftSlop",
+      "x": 1440,
+      "y": 672,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 1600
+    },
+    {
+      "name": "FastUpSlope",
+      "x": 1248,
+      "y": 608,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 544,
+      "height": 64
+    },
+    {
+      "name": "DCFunnel",
+      "x": 1716,
+      "y": 532,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 1248,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 544,
+      "height": 308
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1693.86669921875,
+      "y": 64,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 66.13333129882812,
+      "height": 62
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1629.86669921875,
+      "y": 34,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 66.13333129882812,
+      "height": 62
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1817.60009765625,
+      "y": 580,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 166.39996337890625,
+      "height": 155.99996948242188
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1405.86669921875,
+      "y": 128,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 66.13333129882812,
+      "height": 62
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1277.86669921875,
+      "y": 194,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 66.13333129882812,
+      "height": 62
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1945.5999755859375,
+      "y": 544,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 102.39999389648438,
+      "height": 96
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1440,
+      "y": 0,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 102.39999389648438,
+      "height": 96
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1501.86669921875,
+      "y": 32,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 130.13330078125,
+      "height": 121.99996948242188
+    },
+    {
+      "name": "StoneEnter",
+      "x": 1309.86669921875,
+      "y": 130,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1042,
+      "width": 66.13333129882812,
+      "height": 62
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1856,
+      "y": 736,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1280,
+      "y": 288,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1344,
+      "y": 192,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1984,
+      "y": 736,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1472,
+      "y": 128,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1856,
+      "y": 512,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1632,
+      "y": 96,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "width": 64,
+      "height": 64,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2048,
+      "y": 608,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "DCFunnel",
+      "x": 3156,
+      "y": 544,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 3232,
+      "y": 192,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 320,
+      "height": 448
+    },
+    {
+      "name": "line",
+      "x": 3166.57080078125,
+      "y": 648.9437255859375,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 65.4290771484375,
+      "height": 535.0562744140625
+    },
+    {
+      "name": "DCFunnel",
+      "x": 1940,
+      "y": 1568,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 1504,
+      "y": 1664,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 608,
+      "height": 64
+    },
+    {
+      "name": "line",
+      "x": 2016,
+      "y": 1664,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 65.4290771484375,
+      "height": 576
+    },
+    {
+      "name": "RightSlopF",
+      "x": 1792,
+      "y": 1728,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 544,
+      "height": 512
+    },
+    {
+      "name": "DCFunnel",
+      "x": 2816,
+      "y": 2196,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "11"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 2880,
+      "y": 1728,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 64,
+      "height": 512
+    },
+    {
+      "name": "line",
+      "x": 2912,
+      "y": 2272,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 576,
+      "height": 55.0562744140625
+    },
+    {
+      "name": "SnowSlide",
+      "x": 2912,
+      "y": 2304,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 576,
+      "height": 2848
+    },
+    {
+      "name": "DownForceF",
+      "x": 3360,
+      "y": 3744,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "wall",
+      "x": 3443.995849609375,
+      "y": 4703.30029296875,
+      "angle": 6.944289207458496,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 3333.035888671875,
+      "y": 4850.20263671875,
+      "angle": 31.168298721313477,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 3113.793701171875,
+      "y": 5054.96875,
+      "angle": 55.51543045043945,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 64,
+      "height": 864
+    },
+    {
+      "name": "wall",
+      "x": 2524.361572265625,
+      "y": 5574.06640625,
+      "angle": 345.8234558105469,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 748.004150390625,
+      "height": 63.30029296875
+    },
+    {
+      "name": "wall",
+      "x": 2112,
+      "y": 5664,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 1088,
+      "height": 63.30029296875
+    },
+    {
+      "name": "wall",
+      "x": 2048,
+      "y": 1184.69970703125,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 1408,
+      "height": 63.30029296875
+    },
+    {
+      "name": "LeftSlop",
+      "x": 2304,
+      "y": 928,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 864,
+      "height": 64
+    },
+    {
+      "name": "UpSlope",
+      "x": 2304,
+      "y": 992,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 864,
+      "height": 192
+    },
+    {
+      "name": "DownForce",
+      "x": 1792,
+      "y": 730,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 1376,
+      "height": 198
+    },
+    {
+      "name": "wall",
+      "x": 1829.0228271484375,
+      "y": 99.31107330322266,
+      "angle": 5.713849067687988,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 1402.9771728515625,
+      "height": 60.688926696777344
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2432,
+      "y": 608,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2528,
+      "y": 544,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2624,
+      "y": 608,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2784,
+      "y": 576,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2976,
+      "y": 544,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2880,
+      "y": 608,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2720,
+      "y": 640,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "DownForceF",
+      "x": 3232,
+      "y": 3322,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "DownForceF",
+      "x": 3072,
+      "y": 3066,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "DownForceF",
+      "x": 2944,
+      "y": 3738,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 128,
+      "height": 70
+    },
+    {
+      "name": "UpSlope",
+      "x": 2272,
+      "y": 2144,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 2,
+      "width": 608,
+      "height": 160
+    },
+    {
+      "name": "LeftSlop",
+      "x": 2080,
+      "y": 5248,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 480,
+      "height": 448
+    },
+    {
+      "name": "LeftSlop",
+      "x": 1312,
+      "y": 5644.16259765625,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 448,
+      "height": 275.83740234375
+    },
+    {
+      "name": "SnowSlide",
+      "x": 544,
+      "y": 3488,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 384,
+      "height": 1088
+    },
+    {
+      "name": "SnowSlide",
+      "x": 1792,
+      "y": 928,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 512,
+      "height": 256
+    },
+    {
+      "name": "line2",
+      "x": 1856,
+      "y": 160,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 448,
+      "vars": {
+        "funcID": "1"
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2080,
+      "y": 1376,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2176,
+      "y": 1312,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2272,
+      "y": 1376,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2368,
+      "y": 1408,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2432,
+      "y": 1344,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2528,
+      "y": 1376,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2624,
+      "y": 1312,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2432,
+      "y": 1568,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2528,
+      "y": 1504,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2624,
+      "y": 1568,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2720,
+      "y": 1600,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2784,
+      "y": 1536,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2880,
+      "y": 1568,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 2976,
+      "y": 1504,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "SpeedBump2Right",
+      "x": 896,
+      "y": 1312,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 160,
+      "height": 1248
+    },
+    {
+      "name": "SpeedBump2Right",
+      "x": 576,
+      "y": 800,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 1792
+    },
+    {
+      "name": "SpeedBumpLeft",
+      "x": 800,
+      "y": 800,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 64,
+      "height": 1792
+    },
+    {
+      "name": "SnowSlide",
+      "x": 3296,
+      "y": 192,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 256,
+      "height": 736
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 14.5,
+      "y": 3165.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 352,
+      "y": 256,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 5,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "name": "adword1",
+      "x": 1456.8284912109375,
+      "y": 1261.4085693359375,
+      "angle": 8.564520835876465,
+      "layer": "Lay",
+      "zOrder": 5,
+      "width": 1054.3431396484375,
+      "height": 197.18287658691406
+    },
+    {
+      "name": "adword2",
+      "x": 266.8153076171875,
+      "y": 2888.396728515625,
+      "angle": 342.1479187011719,
+      "layer": "Lay",
+      "zOrder": 5,
+      "width": 1418.130615234375,
+      "height": 293.2926940917969
+    },
+    {
+      "name": "SnowSlide",
+      "x": 1792,
+      "y": 1184,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1,
+      "width": 256,
+      "height": 480
+    },
+    {
+      "name": "sand",
+      "x": 1216,
+      "y": -128,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 2,
+      "width": 2496,
+      "height": 2432
+    },
+    {
+      "name": "grass",
+      "x": 1216,
+      "y": 2304,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 2,
+      "width": 2560,
+      "height": 3944
+    },
+    {
+      "name": "sand",
+      "x": -1088,
+      "y": 2880,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 2,
+      "width": 2306,
+      "height": 3373
+    },
+    {
+      "name": "DCFunnel",
+      "x": 1236,
+      "y": 3104,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1038,
+      "vars": {
+        "funeralID": "10"
+      }
+    },
+    {
+      "name": "intake",
+      "x": 1344,
+      "y": 2752,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 64,
+      "height": 416,
+      "vars": {
+        "funcID": "1"
+      }
+    },
+    {
+      "name": "line",
+      "x": 1344,
+      "y": 3200,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 4,
+      "width": 416,
+      "height": 64
+    },
+    {
+      "name": "RightSlop",
+      "x": 800,
+      "y": 2906,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 384,
+      "height": 70
+    },
+    {
+      "name": "RightSlop",
+      "x": 864,
+      "y": 3008,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 384,
+      "height": 70
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1231,
+      "y": 3911.333251953125,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1022,
+      "width": 80,
+      "height": 111.99991607666016
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 53.5,
+      "y": 3234.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 88.5,
+      "y": 3152.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1156.5,
+      "y": 4001.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1101.5,
+      "y": 3947.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1032.5,
+      "y": 3968.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 975.5,
+      "y": 3934.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1561.5,
+      "y": 3986.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1177.5,
+      "y": 3476.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1088.5,
+      "y": 3568.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1075.5,
+      "y": 3410.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1201.5,
+      "y": 3233.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1110.5,
+      "y": 3303.25,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 1204.5,
+      "y": 3355.75,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "EntranceTunnel",
+      "x": 980.5,
+      "y": 3491.75,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 3,
+      "width": 45,
+      "height": 67.5
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1043,
+      "y": 3429,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1016,
+      "y": 3589,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1111,
+      "y": 3350,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1108,
+      "y": 3487,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1201,
+      "y": 3237,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1099,
+      "y": 3186,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1009,
+      "y": 3285,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 986,
+      "y": 3376,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 931,
+      "y": 3513,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1122,
+      "y": 3623,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 971,
+      "y": 3980,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1177,
+      "y": 4040,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1066,
+      "y": 4088,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1116,
+      "y": 3832,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1600,
+      "y": 3876,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "MagicPowerStation",
+      "x": 1454,
+      "y": 3889,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1035,
+      "vars": {
+        "functiontype": "4",
+        "joinID": ""
+      }
+    },
+    {
+      "name": "wall",
+      "x": 1449.8447265625,
+      "y": 5850.966796875,
+      "angle": 330.48309326171875,
+      "layer": "Lay",
+      "zOrder": 74,
+      "width": 731,
+      "height": 63.30029296875
+    },
+    {
+      "name": "Headbomb",
+      "x": 617.4813842773438,
+      "y": 4513.92578125,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1043,
+      "width": 205.49977111816406,
+      "height": 136.9998321533203
+    },
+    {
+      "name": "waterwheelcircle",
+      "x": -482,
+      "y": 4111,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1045
+    },
+    {
+      "name": "waterwheelcircle",
+      "x": 1024,
+      "y": 6574,
+      "angle": 0,
+      "layer": "Lay",
+      "zOrder": 1045
+    }
+  ]
+}

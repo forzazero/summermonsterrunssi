@@ -1,0 +1,2485 @@
+[
+  {
+    "name": "AddUp",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/D-pad top.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 61,
+    "defaultHeight": 76
+  },
+  {
+    "name": "adword1",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Round About FreeZone",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "134;243;193",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "adword2",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Free Zone",
+      "font": "ui/bloodline/bloodline.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "again",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Try Again?",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "arrow",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "t1",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/arrowdefault-1.png",
+            "originX": 36,
+            "originY": 43
+          }
+        ]
+      },
+      {
+        "name": "t2",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/arrowdefault-2.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 192,
+    "defaultHeight": 96
+  },
+  {
+    "name": "Back",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Return",
+      "font": "ui/summer/summer.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "99;59;59",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "BallFire",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Dynamic",
+      "shape": "Circle",
+      "shapeDimensionA": 0,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 2,
+      "friction": 0.01,
+      "restitution": 0.1,
+      "linearDamping": 0,
+      "angularDamping": 0.01,
+      "gravityScale": 1,
+      "fixedRotation": true,
+      "bullet": true,
+      "canSleep": false,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "c1",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pnukbeachsexy.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "c2",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/jinx.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "c3",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmax-2.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "c4",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmax-3.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "c5",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmax-4.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "joinID": "0"
+    },
+    "defaultWidth": 64,
+    "defaultHeight": 68
+  },
+  {
+    "name": "BMText",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Life: 100",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "BMUIEnemy",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Life: 100",
+      "font": "ui/summer/summer.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Bombflame",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "BounceTime",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Pull Times",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 0.5,
+      "tint": "230;222;132",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Checker",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/checkerarea.png"
+  },
+  {
+    "name": "Checkerq",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Checker",
+      "font": "ui/nice/nice.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "CircleControl",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "move",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/SmallHandle.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "fix",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/LargeHandleFilledGrey.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "touchId": "0",
+      "touch_x": "0",
+      "touch_y": "0"
+    },
+    "defaultWidth": 100,
+    "defaultHeight": 100
+  },
+  {
+    "name": "citya",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/cityselector.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 1332,
+    "defaultHeight": 1473
+  },
+  {
+    "name": "Cone",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/cone.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 30,
+    "defaultHeight": 40
+  },
+  {
+    "name": "ContentBlock",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Lets make a bet now which marble will win the laps. The highest lap will be the winner.",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "74;74;74",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "CoolAir",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "Corner",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "Large",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Corner_Large.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "Small",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Corner_Small.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 256,
+    "defaultHeight": 256
+  },
+  {
+    "name": "cracer",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "alpha/s4-1.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 64,
+    "defaultHeight": 64
+  },
+  {
+    "name": "crosshit",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "DC",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/steer.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 207,
+    "defaultHeight": 238
+  },
+  {
+    "name": "DCFunnel",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Static",
+      "shape": "Circle",
+      "shapeDimensionA": 0,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 1,
+      "friction": 0.3,
+      "restitution": 0.1,
+      "linearDamping": 0.1,
+      "angularDamping": 0.1,
+      "gravityScale": 1,
+      "fixedRotation": false,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.4000000059604645,
+        "frames": [
+          {
+            "image": "assets/islandbed.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "funeralID": "0"
+    },
+    "defaultWidth": 140,
+    "defaultHeight": 140
+  },
+  {
+    "name": "DCFunnelCover",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Static",
+      "shape": "Circle",
+      "shapeDimensionA": 0,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 1,
+      "friction": 0.3,
+      "restitution": 0.1,
+      "linearDamping": 0.1,
+      "angularDamping": 0.1,
+      "gravityScale": 1,
+      "fixedRotation": false,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.4000000059604645,
+        "frames": [
+          {
+            "image": "assets/islandcover.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "funeralID": "0"
+    },
+    "defaultWidth": 140,
+    "defaultHeight": 140
+  },
+  {
+    "name": "debug_f1",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "debug_f2",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "di_ban",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 64,
+    "defaultHeight": 64,
+    "texture": "assets/di_ban-1.png"
+  },
+  {
+    "name": "dirt",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 64,
+    "defaultHeight": 64,
+    "texture": "assets/di_ban-1.png"
+  },
+  {
+    "name": "DownForce",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_down.png"
+  },
+  {
+    "name": "DownForceF",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_down_f.png"
+  },
+  {
+    "name": "EntranceTunnel",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/notice_9.png",
+            "originX": 8,
+            "originY": 20
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 16,
+    "defaultHeight": 24
+  },
+  {
+    "name": "ExitTunnel",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/Large Hole.png",
+            "originX": 80,
+            "originY": 80
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 160,
+    "defaultHeight": 160
+  },
+  {
+    "name": "explodewave",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "alpha/explode3.png",
+            "originX": 50,
+            "originY": 50
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 100,
+    "defaultHeight": 100
+  },
+  {
+    "name": "FastUpSlope",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_up2-1.png"
+  },
+  {
+    "name": "firestatusLight",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "firestatusRed",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "FreeCam",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Free Camera",
+      "font": "ui/nice/nice.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "Fullsceen",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Full Screen",
+      "font": "ui/summer/summer.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "221;97;97",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "graffit",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Battle Now",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "134;243;193",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "grass",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 64,
+    "defaultHeight": 64,
+    "texture": "assets/imgGrass.png"
+  },
+  {
+    "name": "Headbomb",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "assets/bombermanhead/sprite_0.png",
+            "originX": 40,
+            "originY": 52
+          },
+          {
+            "image": "assets/bombermanhead/sprite_1.png",
+            "originX": 40,
+            "originY": 52
+          },
+          {
+            "image": "assets/bombermanhead/sprite_2.png",
+            "originX": 40,
+            "originY": 52
+          },
+          {
+            "image": "assets/bombermanhead/sprite_3.png",
+            "originX": 40,
+            "originY": 52
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "interval": 0,
+      "angle": 0
+    },
+    "defaultWidth": 81,
+    "defaultHeight": 54
+  },
+  {
+    "name": "hitwallspark",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "indicator",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "alpha/title.png",
+            "originX": -9,
+            "originY": 84
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 64,
+    "defaultHeight": 64
+  },
+  {
+    "name": "IndicatorUITag",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Life: 100",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "inputselect",
+    "gdType": "PrimitiveDrawing::Drawer",
+    "render": "shape"
+  },
+  {
+    "name": "intake",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "vars": {
+      "funcID": "0",
+      "interval": "0"
+    },
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/Floor_Cracks3.png"
+  },
+  {
+    "name": "katana_bullet",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/katana.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 19,
+    "defaultHeight": 110
+  },
+  {
+    "name": "LaneK1",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "lanek1",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "assets/lanek1.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 300,
+    "defaultHeight": 300
+  },
+  {
+    "name": "LaneK2",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "lanek2",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "assets/lanek2.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 300,
+    "defaultHeight": 300
+  },
+  {
+    "name": "LaneK3",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/lanek3.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 300,
+    "defaultHeight": 300
+  },
+  {
+    "name": "LaneK4",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/lanek4.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 300,
+    "defaultHeight": 300
+  },
+  {
+    "name": "LargeHole",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Large Hole.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 160,
+    "defaultHeight": 160
+  },
+  {
+    "name": "Laser",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Laser.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 40,
+    "defaultHeight": 256
+  },
+  {
+    "name": "LaserShooter",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Laser Shooter.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 72,
+    "defaultHeight": 76
+  },
+  {
+    "name": "launch2",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "LaunchPad",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Launch Pad",
+      "font": "ui/nice/nice.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "leftb",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/shadedDark05.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 76,
+    "defaultHeight": 61
+  },
+  {
+    "name": "LeftSlop",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_left.png"
+  },
+  {
+    "name": "lightcrosshit",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "lightcrosshit2",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "lightcrosshit3relay",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "line",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/Floor_Cracks1.png"
+  },
+  {
+    "name": "line2",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "vars": {
+      "funcID": "0",
+      "interval": "0"
+    },
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/hexeline.png"
+  },
+  {
+    "name": "MagicPowerStation",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Dynamic",
+      "shape": "Circle",
+      "shapeDimensionA": 10,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 1,
+      "friction": 0.3,
+      "restitution": 0.1,
+      "linearDamping": 0.1,
+      "angularDamping": 0.1,
+      "gravityScale": 1,
+      "fixedRotation": false,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/NewObject-1.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "no",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/surken64.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "powerup2",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/mons6.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "powerup",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/mons3.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "tree1",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/tree_3.png",
+            "originX": 10,
+            "originY": 32
+          },
+          {
+            "image": "trees/tree_4.png",
+            "originX": 10,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "mailbox",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/font62_..png",
+            "originX": 6,
+            "originY": 18
+          }
+        ]
+      },
+      {
+        "name": "mailbox2",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/font55_2.png",
+            "originX": 7,
+            "originY": 24
+          }
+        ]
+      },
+      {
+        "name": "grass",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/font03_c.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font07_g.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font05_e.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font09_i.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font02_b.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font06_f.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font04_d.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/font08_h.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n7.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n4.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n5.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n6.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n3.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n2.png",
+            "originX": 3,
+            "originY": 8
+          },
+          {
+            "image": "trees/grass_n1.png",
+            "originX": 3,
+            "originY": 8
+          }
+        ]
+      },
+      {
+        "name": "bomb",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/b12.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "soccerbomb",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/b13.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "timedbomb",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/b14.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      },
+      {
+        "name": "baseballbomb",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/b15.png",
+            "originX": 32,
+            "originY": 32
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "functiontype": "0",
+      "joinID": "0"
+    },
+    "defaultWidth": 64,
+    "defaultHeight": 64
+  },
+  {
+    "name": "maintitle",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Main",
+      "font": "ui/summer/summer.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "99;59;59",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "map",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/gamemap.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 1600,
+    "defaultHeight": 1200
+  },
+  {
+    "name": "MARK2",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "Menu",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "1",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "ui/menu_2_2_2.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 100,
+    "defaultHeight": 100
+  },
+  {
+    "name": "mons912",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "generalblood",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "assets/mons912.png",
+            "originX": 241,
+            "originY": 460
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "walkingspeed": "10"
+    },
+    "defaultWidth": 482,
+    "defaultHeight": 472
+  },
+  {
+    "name": "NewBitmapText",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Thanks for playing",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 2,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "NewShapePainter",
+    "gdType": "PrimitiveDrawing::Drawer",
+    "render": "shape"
+  },
+  {
+    "name": "NewText",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "NewTextrr",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "Note",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/notice_13.png",
+            "originX": 15,
+            "originY": 21
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 30,
+    "defaultHeight": 26
+  },
+  {
+    "name": "Note2",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "trees/notice_5.png",
+            "originX": 7,
+            "originY": 14
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 14,
+    "defaultHeight": 16
+  },
+  {
+    "name": "NoX",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "№00",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 2,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "ok",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "ui/okb.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 74,
+    "defaultHeight": 74
+  },
+  {
+    "name": "Panel21",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "ui/TauntDoor_L.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 359,
+    "defaultHeight": 512
+  },
+  {
+    "name": "park1",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Race Dayton",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "208;2;27",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "park2",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Ball Park",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "65;117;5",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "park3",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Ball Play",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "208;2;27",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "park4",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Roller",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "231;23;23",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "park5",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "WaterLo",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "231;23;23",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "park6",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Bom Land",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 1.5,
+      "tint": "231;23;23",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "PosDual",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/JoystickSplitted.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 356,
+    "defaultHeight": 356
+  },
+  {
+    "name": "PowerButton",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "1",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "ui/1-1.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 74,
+    "defaultHeight": 74
+  },
+  {
+    "name": "Racer",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "RACER",
+      "font": "ui/nice/nice.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "racerball",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Dynamic",
+      "shape": "Circle",
+      "shapeDimensionA": 0,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 2,
+      "friction": 0.01,
+      "restitution": 0.2,
+      "linearDamping": 0.01,
+      "angularDamping": 0.001,
+      "gravityScale": 1,
+      "fixedRotation": true,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "doga",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "assets/dogykai.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "jinxx",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/jinx.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmax-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pica-boob-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmax-3.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixcdog-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixclion-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixilx-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixilx-2.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmg6-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pixmg6-2.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/ku_lou1-1-1-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/ku_lou1-3.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/p5nsfwninjia-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/p5nsfwninjia-2.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/kamaSeries-1.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/kamaSeries-2.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pnukbeachsexy.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/pcto.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/moonpure.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/moontiago.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      },
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/picolordring.png",
+            "originX": 32,
+            "originY": 64
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "joinID": "0",
+      "monID": "0",
+      "monType": "0",
+      "laps": "0",
+      "withdraw": "0",
+      "destruction": 0,
+      "tempvel": "0",
+      "flameType": "0"
+    },
+    "defaultWidth": 64,
+    "defaultHeight": 64
+  },
+  {
+    "name": "reanea",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Super Bomber Man",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "134;243;193",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "rightb",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/shadedDark06.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 75,
+    "defaultHeight": 61
+  },
+  {
+    "name": "RightSlop",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_right.png"
+  },
+  {
+    "name": "RightSlopF",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/hexeline-1.png"
+  },
+  {
+    "name": "sand",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 64,
+    "defaultHeight": 64,
+    "texture": "assets/imgGround.png"
+  },
+  {
+    "name": "SCREEN_BANNER",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Ready Go",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "ScreenControlButton",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "1",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "ui/okb.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 74,
+    "defaultHeight": 74
+  },
+  {
+    "name": "Shadow",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "assets/gun_shadow.png",
+            "originX": 14,
+            "originY": 3
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 29,
+    "defaultHeight": 6
+  },
+  {
+    "name": "shootingSpark",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "showup",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "SIGN_START",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Ready Go",
+      "font": "ui/Cholco/Cholco.fnt",
+      "fontSize": 20,
+      "scale": 3,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "SmallBlock",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "Locked",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Small Block_Locked.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      },
+      {
+        "name": "Normal",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Small Block_Normal.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 64,
+    "defaultHeight": 64
+  },
+  {
+    "name": "SmallHole",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": true,
+        "timeBetweenFrames": 0.02500000037252903,
+        "frames": [
+          {
+            "image": "Small Hole.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 96,
+    "defaultHeight": 96
+  },
+  {
+    "name": "SnowSlide",
+    "gdType": "PanelSpriteObject::PanelSprite",
+    "render": "panel",
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "floorex.png",
+    "panel": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "tiled": true
+    }
+  },
+  {
+    "name": "spark2",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "SpeedBoost",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "SpeedBump2Right",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/roadhorizonbumpright.png"
+  },
+  {
+    "name": "SpeedBumpLeft",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/roadhorizonbumpleft.png"
+  },
+  {
+    "name": "StdFlameBlue",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameHeaven",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameK33",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpdPurp",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpeed",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpeedRed",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpkAu",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpkAu2",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StdFlameSpkGrn",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "StoneEnter",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.07999999821186066,
+        "frames": [
+          {
+            "image": "trees/stone_1.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 32,
+    "defaultHeight": 30
+  },
+  {
+    "name": "SubDown",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.08,
+        "frames": [
+          {
+            "image": "VirtualJoystickPack/D-pad bottom.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "defaultWidth": 61,
+    "defaultHeight": 75
+  },
+  {
+    "name": "T1",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "29",
+      "font": "ui/rose/rose.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "T2",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "29",
+      "font": "ui/rose/rose.fnt",
+      "fontSize": 20,
+      "scale": 1,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "TEST_FORCE",
+    "gdType": "TextObject::Text",
+    "render": "text",
+    "vars": {
+      "display": ""
+    }
+  },
+  {
+    "name": "Title",
+    "gdType": "BitmapText::BitmapTextObject",
+    "render": "bitmapText",
+    "bitmapText": {
+      "text": "Visit Park",
+      "font": "ui/Healx/Healx.fnt",
+      "fontSize": 20,
+      "scale": 2,
+      "tint": "255;255;255",
+      "opacity": 255
+    }
+  },
+  {
+    "name": "TOUCH_ENABLED",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "TOUCH_LEN",
+    "gdType": "TextObject::Text",
+    "render": "text"
+  },
+  {
+    "name": "UpSlope",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 100,
+    "defaultHeight": 70,
+    "texture": "assets/slope_up.png"
+  },
+  {
+    "name": "vfx_floor",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "floor_vfx_2_0",
+        "looping": false,
+        "timeBetweenFrames": 1,
+        "frames": [
+          {
+            "image": "assets/floor_vfx_2_0.png",
+            "originX": 0,
+            "originY": 49
+          },
+          {
+            "image": "assets/floor_vfx_1_02.png",
+            "originX": 0,
+            "originY": 49
+          },
+          {
+            "image": "assets/floor_vfx_1_0.png",
+            "originX": 0,
+            "originY": 49
+          },
+          {
+            "image": "assets/floor_vfx_0_02.png",
+            "originX": 0,
+            "originY": 49
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "casing_is_falling": "1",
+      "relative_floor_y": "0"
+    },
+    "defaultWidth": 192,
+    "defaultHeight": 96
+  },
+  {
+    "name": "vfx_fx",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "animations": [
+      {
+        "name": "floor_vfx_2_0",
+        "looping": false,
+        "timeBetweenFrames": 1,
+        "frames": [
+          {
+            "image": "assets/floor_vfx_2_0.png",
+            "originX": 0,
+            "originY": 0
+          },
+          {
+            "image": "assets/floor_vfx_1_02.png",
+            "originX": 0,
+            "originY": 0
+          },
+          {
+            "image": "assets/floor_vfx_1_0.png",
+            "originX": 0,
+            "originY": 0
+          },
+          {
+            "image": "assets/floor_vfx_0_02.png",
+            "originX": 0,
+            "originY": 0
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "casing_is_falling": "0",
+      "relative_floor_y": "0"
+    },
+    "defaultWidth": 192,
+    "defaultHeight": 96
+  },
+  {
+    "name": "wall",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "physics": {
+      "bodyType": "Static",
+      "shape": "Box",
+      "shapeDimensionA": 0,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 1,
+      "friction": 0.1,
+      "restitution": 0.2,
+      "linearDamping": 0.9,
+      "angularDamping": 0,
+      "gravityScale": 1,
+      "fixedRotation": false,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "defaultWidth": 32,
+    "defaultHeight": 32,
+    "texture": "assets/suelofloor.png"
+  },
+  {
+    "name": "water",
+    "gdType": "TiledSpriteObject::TiledSprite",
+    "render": "tiled",
+    "defaultWidth": 64,
+    "defaultHeight": 64,
+    "texture": "assets/CFX_Demo_T_Water.png"
+  },
+  {
+    "name": "waterwheel",
+    "gdType": "ParticleSystem::ParticleEmitter",
+    "render": "particle"
+  },
+  {
+    "name": "waterwheelcircle",
+    "gdType": "Sprite",
+    "render": "sprite",
+    "physics": {
+      "bodyType": "Static",
+      "shape": "Circle",
+      "shapeDimensionA": 1,
+      "shapeDimensionB": 0,
+      "shapeOffsetX": 0,
+      "shapeOffsetY": 0,
+      "density": 1,
+      "friction": 0.3,
+      "restitution": 0.1,
+      "linearDamping": 0.1,
+      "angularDamping": 0.1,
+      "gravityScale": 1,
+      "fixedRotation": false,
+      "bullet": false,
+      "canSleep": true,
+      "layers": 1,
+      "masks": 1
+    },
+    "animations": [
+      {
+        "name": "",
+        "looping": false,
+        "timeBetweenFrames": 0.4000000059604645,
+        "frames": [
+          {
+            "image": "alpha/shadedDark06.png",
+            "originX": 64,
+            "originY": 64
+          }
+        ]
+      }
+    ],
+    "vars": {
+      "funeralID": "0"
+    },
+    "defaultWidth": 128,
+    "defaultHeight": 128
+  }
+]

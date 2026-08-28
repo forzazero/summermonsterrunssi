@@ -1,0 +1,13 @@
+{
+  "pixel": 4,
+  "inner": 6,
+  "outer": 10,
+  "arc": 58,
+  "speed": 3,
+  "fast": 14,
+  "fps": 12,
+  "lit": 13619151,
+  "shade": 64767,
+  "outline": 0,
+  "fade": 0.4
+}

@@ -1,0 +1,80 @@
+{
+  "master": 0.8,
+  "musicVolume": 0.9,
+  "musicBySlot": {
+    "1": "song:newage",
+    "2": "song:matsuri",
+    "3": "song:afterwar",
+    "4": "song:ironleaguer",
+    "5": "song:setsail",
+    "6": "song:rtype",
+    "7": "song:tokai-no-hoshikuzu"
+  },
+  "cues": {
+    "countdownTick": {
+      "resource": "readycount.wav",
+      "volume": 0.7
+    },
+    "raceStart": {
+      "resource": "ready.wav",
+      "volume": 0.7
+    },
+    "lapCrossed": {
+      "resource": "snd/Misc_Checkpoint.wav",
+      "volume": 0.6,
+      "positional": true
+    },
+    "finished": {
+      "resource": "snd/Misc_extraball.wav",
+      "volume": 0.6,
+      "positional": true
+    },
+    "superBoost": {
+      "resource": "snd/B431.wav",
+      "volume": 0.1,
+      "throttle": 0.4,
+      "positional": true
+    },
+    "bombBlast": {
+      "resource": "sndmp/explode.mp3",
+      "volume": 0.6,
+      "positional": true
+    },
+    "bombFired": {
+      "resource": "fireblue.wav",
+      "volume": 0.4,
+      "throttle": 0.2,
+      "positional": true
+    },
+    "relaunch": {
+      "resource": "heal.wav",
+      "volume": 0.6,
+      "throttle": 0.15,
+      "positional": true
+    },
+    "jointRelease": {
+      "resource": "snd/Hit_Wood_Dome.wav",
+      "volume": 0.6,
+      "throttle": 0.15,
+      "positional": true
+    },
+    "tunnelEnter": {
+      "resource": "snd/Hit_Stone_Wood.wav",
+      "volume": 0.6,
+      "throttle": 0.15,
+      "positional": true
+    },
+    "station:1": {
+      "resource": "katanahit.wav",
+      "volume": 0.6,
+      "throttle": 0.08,
+      "positional": true
+    },
+    "station:6": {
+      "resource": "snd/Hit_Stone_Metal.wav",
+      "volume": 0.6,
+      "throttle": 0.08,
+      "positional": true
+    }
+  }
+}
